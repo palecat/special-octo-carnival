@@ -1,2 +1,3 @@
-FROM nginx
-COPY index.html /usr/share/nginx/html
+FROM nginx:1.21.6-alpine
+COPY index.html /usr/share/nginx/htmll
+EXPOSE 80
